@@ -10,7 +10,6 @@ jobs:
 
     steps:
       - name: Add master label
-      - if: github.
       - uses: actions/labeler@v2
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
